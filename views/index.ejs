@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <ul>
+            <li><a class="" href="http://localhost:8080/">Home</a></li>
+            <li><a href="/show">Show</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <form method="post" action="/add">
+        <div class="form">
+            <div class="title">CRUD APP</div><br><br>
+            <div class="subtitle">Enter Details:</div><br>
+
+            <div class="input-container ic1">
+                <label for="firstname" class="placeholder">Name</label>
+                <div class="cut"></div>
+                <input name="name" class="input" type="text"placeholder=" "/>
+            </div><br>
+            <div class="input-container ic2">
+                <label for="email" class="placeholder">Email</label>
+                <div class="cut cut-short"></div>
+                <input name="email" class="input" type="text"placeholder=" "/>
+            </div><br>
+                <button type="submit" class="submit">Save</button>
+            
+        </div>
+
+
+    </form>
+</body>
+</html>
